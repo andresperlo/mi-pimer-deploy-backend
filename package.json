@@ -1,0 +1,26 @@
+{
+  "name": "servidor2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0",
+    "netlify-lambda": "^1.6.3",
+    "serverless-http": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
