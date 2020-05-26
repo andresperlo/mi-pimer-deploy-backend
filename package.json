@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/api.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "netlify-lambda serve src",
     "build": "rimraf build && webpack --config webpack.config.js --progress --profile --colors"
   },
   "keywords": [],
